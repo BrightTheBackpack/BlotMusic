@@ -1,4 +1,4 @@
-# BlotMusic
+# BlotMusic V1
 
 Music engine for hack club blot
 
