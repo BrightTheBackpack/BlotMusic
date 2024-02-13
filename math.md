@@ -1,9 +1,4 @@
-# BlotMusic V1
+# All the behind the scene stuff
 
-Music engine for hack club blot
+## Conversion of the angle to frequency and vice versa
 
-#How to use
-
-Make a list variable with more lists inside
-
-var music = [['A5,4],['NOTE', DURATION]]
