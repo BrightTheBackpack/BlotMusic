@@ -148,6 +148,6 @@ bt.translate(
   testTurtle.cc
 );
 
-drawLines([
+drawLines(
     testTurtle.path
-]);
+);
