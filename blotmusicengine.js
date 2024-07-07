@@ -2,7 +2,7 @@
 
 const tempo = true
 //creates Turtle
-const testTurtle = createTurtle();
+const testTurtle = new bt.Turtle();
 //initiates Turtle
 testTurtle.forward(1)
 //Function to play sound
@@ -142,11 +142,12 @@ playSong(waylesssadintro)
 playSong(waylesssadp1)
 playSong(waylesssadp1)
 playSong(waylesssadp2)
-testTurtle.translate(
+bt.translate(
+  testTurtle.path,
   [65, 65], 
   testTurtle.cc
 );
 
-drawTurtles([
-    testTurtle
+drawLines([
+    testTurtle.path
 ]);
